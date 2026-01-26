@@ -64,10 +64,12 @@ Examines cost considerations, data relevance, fine-tuning scope, and practical c
 ## Repository Structure
 
 ### Documentation (`/docs`)
-- [Enterprise Architecture](docs/enterprise-architecture.md)
-- [Governance Controls](docs/governance-controls.md)
-- [RAG Pipeline](docs/rag-pipeline.md)
-- [Deployment Model](docs/deployment-model.md)
+### Documentation (`/docs`)
+- [Enterprise Architecture](docs/docs/enterprise-architecture.md)
+- [Governance Controls](docs/docs/governance-controls.md)
+- [RAG Pipeline](docs/docs/rag-pipeline.md)
+- [Deployment Model](docs/docs/deployment-model.md)
+
 
 ### Diagram (`/diagram`)
 - [Reference Architecture PNG](diagram/enterprise-genai-financial-architecture.png)
