@@ -1,112 +1,54 @@
 # Enterprise Generative AI Financial Architecture
 
-Reference architecture, technical diagrams, and implementation artifacts for designing enterprise-grade Generative AI systems in regulated financial environments.
+**Author:** Mr. Sasibhushan Rao Chanthati  
+**Field:** Information Technology (Artificial Intelligence, Enterprise Architecture, Distributed Systems)
 
----
+## Context
+This repository documents a structured technical framework derived from an enterprise-focused technical delivery addressing the design and deployment of generative AI systems in regulated financial environments. The content focuses on architecture, governance, security, retrieval grounding, operational monitoring, and production-readiness considerations for large-scale organizational use.
 
-## Overview
+## Abstract
+This project presents a reference architecture and implementation-oriented framework for deploying generative AI systems in financial and other regulated enterprise environments. It addresses key technical dimensions including governance constraints, privacy-preserving data handling, domain-specific model preparation, Retrieval-Augmented Generation (RAG) pipelines, approved-source retrieval, hybrid deployment patterns, system performance considerations, operational monitoring, and production-readiness tradeoffs. The framework is designed to support scalable, auditable, and reliable AI system behavior in real-world enterprise settings.
 
-This repository provides a practical, implementation-oriented reference for building secure, scalable, and compliant Generative AI platforms in financial services and other regulated industries.
+## Scope of the Framework
+This repository covers the following technical areas:
+- Governance and regulatory-aligned architecture patterns for enterprise AI
+- Secure handling of sensitive data, including PII masking approaches
+- Domain-aware model preparation using embeddings for financial semantics
+- Enterprise RAG pipelines grounded in organization-approved information sources
+- Hybrid deployment models combining on-premise and cloud infrastructure
+- System performance considerations for large-scale user environments
+- Operational monitoring, drift oversight, and lifecycle management
+- Practical production constraints including cost, scope, and feasibility
 
-The materials reflect architectural patterns and technical considerations commonly encountered when moving Generative AI systems from prototype to production, including governance, auditability, operational resilience, and integration into enterprise ecosystems.
+## Technical Framework Overview
 
----
+### 1. Governance and Compliance Architecture
+Defines architectural controls to avoid training models on sensitive datasets, enforce auditability, and constrain model behavior in production environments.
 
-## Scope of the Repository
+### 2. Privacy and Data Protection Controls
+Describes approaches for masking personally identifiable information (PII), access segmentation, and workflow controls when AI systems interact with identity-sensitive data.
 
-This project includes:
+### 3. Domain-Specific Model Preparation
+Introduces techniques for adapting models to financial language using vector embeddings to represent domain-specific terminology and semantics.
 
-- Architecture blueprints for enterprise-scale AI platforms  
-- Reference implementations for governance and auditability  
-- Technical artifacts demonstrating Retrieval-Augmented Generation (RAG) pipelines  
-- API-based service orchestration examples  
-- Documentation describing production constraints in regulated environments  
-- Design patterns for scalability, security, and operational reliability  
+### 4. Enterprise Retrieval-Augmented Generation (RAG)
+Outlines a controlled retrieval architecture in which models access up-to-date content from curated, organization-approved knowledge sources rather than open or generic sources.
 
----
+### 5. Hybrid Infrastructure Architecture
+Presents deployment patterns combining on-premises environments with cloud-based components, with attention to reliability, scalability, and architectural tradeoffs.
 
-## Architecture Artifacts
+### 6. Performance and Scalability Considerations
+Discusses how workload characteristics, user concurrency, and architectural decisions influence responsiveness and system stability.
 
-Located in:
-/docs/architecture/
-/diagrams_source/
+### 7. Monitoring and Operational Oversight
+Defines mechanisms for observing model behavior post-deployment, tracking system health, and ensuring outputs remain aligned with intended operational constraints.
 
+### 8. Production Readiness and Tradeoffs
+Examines cost considerations, data relevance, fine-tuning scope, and practical constraints that influence design decisions in real-world implementations.
 
-Includes:
+## Reference Architecture Diagram
+(Upload your architecture diagram to: docs/images/architecture.png and it will render here.)
 
-- High-level enterprise GenAI platform architecture  
-- Governance and compliance architecture  
-- Data flow and integration architecture  
-- Component interaction diagrams  
-- Deployment topology examples  
+![Reference Architecture](docs/images/architecture.png)
 
-All diagrams are authored by:
-> © Sasibhushan Rao Chanthati
-
----
-## Implementation Artifacts
-/src/
-
-Includes example components such as:
-
-- RAG pipeline examples  
-- Governance enforcement logic  
-- Audit logging mechanisms  
-- API orchestration patterns  
-- Policy enforcement examples  
-- Prompt lifecycle management patterns  
-
-These components are **illustrative technical artifacts** intended to demonstrate architectural patterns rather than production-ready code.
-
----
-
-## Key Technical Themes
-
-This repository focuses on real-world engineering considerations such as:
-
-- Secure LLM integration in enterprise environments  
-- Retrieval-Augmented Generation (RAG) design patterns  
-- Governance controls (model usage, access control, policy enforcement)  
-- Auditability and traceability of AI decisions  
-- Data privacy and protection in regulated systems  
-- Hybrid deployment patterns (cloud + on-prem constraints)  
-- System reliability, observability, and operational monitoring  
-
----
-
-## Intended Audience
-
-This material is relevant to:
-
-- Software Architects  
-- Senior Engineers  
-- Platform Engineers  
-- AI/ML Engineers  
-- Engineering Managers  
-- Technical Leaders building AI systems in regulated environments  
-
----
-
-## License
-
-This repository is shared for educational and professional reference purposes.
-
-Unless otherwise stated, all original materials (including diagrams and documentation) are:
-> © Sasibhushan Rao Chanthati
-
----
-
-## Author
-
-**Sasibhushan Rao Chanthati**  
-Enterprise Software Engineering | AI Systems Architecture | Financial Systems Engineering  
-
----
-
-## Notes
-
-This repository reflects practical architectural patterns and implementation approaches based on real-world delivery experience in enterprise environments.
-
-
-
-
+## Repository Structure
