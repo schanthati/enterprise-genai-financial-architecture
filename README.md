@@ -5,6 +5,13 @@
 
 ## Context
 This repository documents a structured technical framework derived from an enterprise-focused technical delivery addressing the design and deployment of generative AI systems in regulated financial environments. The content focuses on architecture, governance, security, retrieval grounding, operational monitoring, and production-readiness considerations for large-scale organizational use.
+## Table of Contents
+- [Scope of the Framework](#scope-of-the-framework)
+- [Technical Framework Overview](#technical-framework-overview)
+- [Architecture Diagram](#architecture-diagram)
+- [Repository Structure](#repository-structure)
+- [How to Cite](#how-to-cite)
+- [License](#license)
 
 ## Abstract
 This project presents a reference architecture and implementation-oriented framework for deploying generative AI systems in financial and other regulated enterprise environments. It addresses key technical dimensions including governance constraints, privacy-preserving data handling, domain-specific model preparation, Retrieval-Augmented Generation (RAG) pipelines, approved-source retrieval, hybrid deployment patterns, system performance considerations, operational monitoring, and production-readiness tradeoffs. The framework is designed to support scalable, auditable, and reliable AI system behavior in real-world enterprise settings.
@@ -46,13 +53,36 @@ Defines mechanisms for observing model behavior post-deployment, tracking system
 ### 8. Production Readiness and Tradeoffs
 Examines cost considerations, data relevance, fine-tuning scope, and practical constraints that influence design decisions in real-world implementations.
 
-
 ## Repository Structure
+
+### Documentation (`/docs`)
+- [Enterprise Architecture](docs/enterprise-architecture.md)
+- [Governance Controls](docs/governance-controls.md)
+- [RAG Pipeline](docs/rag-pipeline.md)
+- [Deployment Model](docs/deployment-model.md)
+
+### Diagram (`/diagram`)
+- [Reference Architecture PNG](diagram/enterprise-genai-financial-architecture.png)
+
+### Implementation Notes (`/src`)
+- [Reference Implementation Notes](src/reference-implementation.md)
+
+
 ## Architecture Diagram
-## Governance Controls
-## RAG pipeline
-## Deployment Model
-## Development and Code
+![Enterprise GenAI Financial Architecture](diagram/enterprise-genai-financial-architecture.png)
+## Repository Structure
+
+### Documentation (`/docs`)
+- [Enterprise Architecture](docs/enterprise-architecture.md)
+- [Governance Controls](docs/governance-controls.md)
+- [RAG Pipeline](docs/rag-pipeline.md)
+- [Deployment Model](docs/deployment-model.md)
+
+### Diagram (`/diagram`)
+- [Reference Architecture PNG](diagram/enterprise-genai-financial-architecture.png)
+
+### Implementation Notes (`/src`)
+- [Reference Implementation Notes](src/reference-implementation.md)
 
 /docs
 
@@ -74,3 +104,15 @@ Initial public release: v1.0.0
 
 ## License
 Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Enterprise Generative AI Financial Architecture"
+authors:
+  - family-names: "Chanthati"
+    given-names: "Sasibhushan Rao"
+version: "1.0.0"
+date-released: "2026-01-25"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/schanthati/enterprise-genai-financial-architecture"
+
