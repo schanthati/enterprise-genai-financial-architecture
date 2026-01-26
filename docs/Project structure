@@ -1,0 +1,18 @@
+src/
+  app.py
+  config.py
+  pii.py
+  ingest.py
+  embed_store.py
+  retrieve.py
+  prompt.py
+  guardrails.py
+  telemetry.py
+  llm_client.py
+data/
+  approved_sources/
+    policies/
+    runbooks/
+index/
+  faiss.index
+  docs.jsonl
