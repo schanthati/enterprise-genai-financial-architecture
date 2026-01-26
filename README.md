@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18372222.svg)](https://doi.org/10.5281/zenodo.18372222)
+
 # Enterprise Generative AI Financial Architecture
 
 **Author:** Mr. Sasibhushan Rao Chanthati  
