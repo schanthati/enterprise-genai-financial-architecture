@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Enterprise Generative AI Financial Architecture"
+authors:
+  - family-names: "Chanthati"
+    given-names: "Sasibhushan Rao"
+version: "1.0.0"
+date-released: "2026-01-25"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/schanthati/enterprise-genai-financial-architecture"
