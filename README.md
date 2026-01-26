@@ -64,8 +64,6 @@ Examines cost considerations, data relevance, fine-tuning scope, and practical c
 ## Repository Structure
 
 ### Documentation (`/docs`)
-### Documentation (`/docs`)
-### Documentation (`/docs`)
 - [Enterprise Architecture](docs/enterprise-architecture.md)
 - [Governance Controls](docs/governance-controls.md)
 - [RAG Pipeline](docs/docs/rag-pipeline.md)
