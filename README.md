@@ -46,9 +46,8 @@ Defines mechanisms for observing model behavior post-deployment, tracking system
 ### 8. Production Readiness and Tradeoffs
 Examines cost considerations, data relevance, fine-tuning scope, and practical constraints that influence design decisions in real-world implementations.
 
-## Reference Architecture Diagram
-(Upload your architecture diagram to: docs/images/architecture.png and it will render here.)
-
+# Architecture Diagram
+docs/images/architecture.png
 ![Reference Architecture](docs/images/architecture.png)
 
 ## Repository Structure
