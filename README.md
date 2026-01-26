@@ -55,16 +55,19 @@ Examines cost considerations, data relevance, fine-tuning scope, and practical c
 ## Development and Code
 
 /docs
-  enterprise-architecture.md
-  governance-controls.md
-  rag-pipeline.md
-  deployment-model.md
 
-/diagrams
-  enterprise-genai-financial-architecture.png
+  # enterprise-architecture.md
+  # governance-controls.md
+  # rag-pipeline.md
+  # deployment-model.md
+
+/diagram
+
+  # enterprise-genai-financial-architecture.png
 
 /src
-  reference-implementation.md
+
+  # reference-implementation.md
 
 ## Versioning
 Initial public release: v1.0.0
