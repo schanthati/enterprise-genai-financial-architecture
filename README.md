@@ -46,17 +46,14 @@ Defines mechanisms for observing model behavior post-deployment, tracking system
 ### 8. Production Readiness and Tradeoffs
 Examines cost considerations, data relevance, fine-tuning scope, and practical constraints that influence design decisions in real-world implementations.
 
-# Architecture Diagram
-docs/images/architecture.png
-![Reference Architecture](docs/images/architecture.png)
 
 ## Repository Structure
+## Architecture Diagram
+## Governance Controls
+## RAG pipeline
+## Deployment Model
+## Development and Code
 
-/docs
-governance-controls.md
-rag-pipeline.md
-deployment-model.md
-pseudocode.md
 
 ## Versioning
 Initial public release: v1.0.0
