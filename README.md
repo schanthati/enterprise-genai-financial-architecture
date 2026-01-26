@@ -52,3 +52,15 @@ Examines cost considerations, data relevance, fine-tuning scope, and practical c
 ![Reference Architecture](docs/images/architecture.png)
 
 ## Repository Structure
+
+/docs
+governance-controls.md
+rag-pipeline.md
+deployment-model.md
+pseudocode.md
+
+## Versioning
+Initial public release: v1.0.0
+
+## License
+Creative Commons Attribution 4.0 International (CC BY 4.0)
