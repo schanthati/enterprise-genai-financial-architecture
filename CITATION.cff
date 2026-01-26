@@ -7,4 +7,6 @@ authors:
 version: "1.0.0"
 date-released: "2026-01-25"
 license: "CC-BY-4.0"
+doi: "10.5281/zenodo.18372222"
 repository-code: "https://github.com/schanthati/enterprise-genai-financial-architecture"
+url: "https://doi.org/10.5281/zenodo.18372222"
