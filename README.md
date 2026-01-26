@@ -5,12 +5,14 @@
 
 ## Context
 This repository documents a structured technical framework derived from an enterprise-focused technical delivery addressing the design and deployment of generative AI systems in regulated financial environments. The content focuses on architecture, governance, security, retrieval grounding, operational monitoring, and production-readiness considerations for large-scale organizational use.
+
 ## Table of Contents
+- [Abstract](#abstract)
 - [Scope of the Framework](#scope-of-the-framework)
 - [Technical Framework Overview](#technical-framework-overview)
 - [Architecture Diagram](#architecture-diagram)
 - [Repository Structure](#repository-structure)
-- [How to Cite](#how-to-cite)
+- [Versioning](#versioning)
 - [License](#license)
 
 ## Abstract
@@ -18,14 +20,14 @@ This project presents a reference architecture and implementation-oriented frame
 
 ## Scope of the Framework
 This repository covers the following technical areas:
-- Governance and regulatory-aligned architecture patterns for enterprise AI
-- Secure handling of sensitive data, including PII masking approaches
-- Domain-aware model preparation using embeddings for financial semantics
-- Enterprise RAG pipelines grounded in organization-approved information sources
-- Hybrid deployment models combining on-premise and cloud infrastructure
-- System performance considerations for large-scale user environments
-- Operational monitoring, drift oversight, and lifecycle management
-- Practical production constraints including cost, scope, and feasibility
+- Governance and regulatory-aligned architecture patterns for enterprise AI  
+- Secure handling of sensitive data, including PII masking approaches  
+- Domain-aware model preparation using embeddings for financial semantics  
+- Enterprise RAG pipelines grounded in organization-approved information sources  
+- Hybrid deployment models combining on-premise and cloud infrastructure  
+- System performance considerations for large-scale user environments  
+- Operational monitoring, drift oversight, and lifecycle management  
+- Practical production constraints including cost, scope, and feasibility  
 
 ## Technical Framework Overview
 
@@ -53,23 +55,9 @@ Defines mechanisms for observing model behavior post-deployment, tracking system
 ### 8. Production Readiness and Tradeoffs
 Examines cost considerations, data relevance, fine-tuning scope, and practical constraints that influence design decisions in real-world implementations.
 
-## Repository Structure
-
-### Documentation (`/docs`)
-- [Enterprise Architecture](docs/enterprise-architecture.md)
-- [Governance Controls](docs/governance-controls.md)
-- [RAG Pipeline](docs/rag-pipeline.md)
-- [Deployment Model](docs/deployment-model.md)
-
-### Diagram (`/diagram`)
-- [Reference Architecture PNG](diagram/enterprise-genai-financial-architecture.png)
-
-### Implementation Notes (`/src`)
-- [Reference Implementation Notes](src/reference-implementation.md)
-
-
 ## Architecture Diagram
 ![Enterprise GenAI Financial Architecture](diagram/enterprise-genai-financial-architecture.png)
+
 ## Repository Structure
 
 ### Documentation (`/docs`)
@@ -83,36 +71,9 @@ Examines cost considerations, data relevance, fine-tuning scope, and practical c
 
 ### Implementation Notes (`/src`)
 - [Reference Implementation Notes](src/reference-implementation.md)
-
-/docs
-
-  # enterprise-architecture.md
-  # governance-controls.md
-  # rag-pipeline.md
-  # deployment-model.md
-
-/diagram
-
-  # enterprise-genai-financial-architecture.png
-
-/src
-
-  # reference-implementation.md
 
 ## Versioning
 Initial public release: v1.0.0
 
 ## License
 Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-cff-version: 1.2.0
-message: "If you use this work, please cite it."
-title: "Enterprise Generative AI Financial Architecture"
-authors:
-  - family-names: "Chanthati"
-    given-names: "Sasibhushan Rao"
-version: "1.0.0"
-date-released: "2026-01-25"
-license: "CC-BY-4.0"
-repository-code: "https://github.com/schanthati/enterprise-genai-financial-architecture"
-
