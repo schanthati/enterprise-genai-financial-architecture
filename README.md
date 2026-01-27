@@ -84,6 +84,6 @@ Initial public release: v1.0.0
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ## How to Cite
-Chanthati, S. R. (2026). *Enterprise Generative AI Financial Architecture* (v1.0.0). Zenodo.  
+Chanthati, S. R. (2025). *Enterprise Generative AI Financial Architecture* (v1.0.0). Zenodo.  
 https://doi.org/10.5281/zenodo.18372222
 
