@@ -5,7 +5,7 @@ authors:
   - family-names: "Chanthati"
     given-names: "Sasibhushan Rao"
 version: "1.0.0"
-date-released: "2026-01-25"
+date-released: "2025-01-25"
 license: "CC-BY-4.0"
 doi: "10.5281/zenodo.18372222"
 repository-code: "https://github.com/schanthati/enterprise-genai-financial-architecture"
